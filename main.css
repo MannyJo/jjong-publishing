@@ -12,6 +12,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     width: 100vw;
+    min-width: 500px;
 }
 
 #navFrame {
@@ -41,8 +42,10 @@ body {
 
 #mainImage {
     background-image: url('door.jpg');
-    background-size: 100%;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
     width: 100vw;
+    min-width: 500px;
     height: 200px;
     padding-top: 200px;
 }
